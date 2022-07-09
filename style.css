@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Monolog';
+    src: local('Monolog SemiBold'), local('Monolog-SemiBold'),
+        url('Monolog-SemiBold.woff2') format('woff2'),
+        url('Monolog-SemiBold.woff') format('woff'),
+        url('Monolog-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+*{
+    font-family: 'Monolog', sans-serif;
+    /* outline: 1px dotted red; */
+}
+.btn-sda{
+    background: #03787c;
+    color: #fff;
+}.btn-sda:focus{
+    background: #03787c;
+}
+.header{  
+    height: 150px;
+    background: #d7eff4;
+}
+.footer{  
+    height: 100px;
+    background: #d7eff4;
+}
+body{
+    
+    background: #03787c;
+}
+.card{
+    
+    background: #fff !important;
+}
+.logo-sda{    
+    width: 25%;
+}
+.logo-cd{
+    width: 20%;
+}
+h1{
+    color: #03787c ;
+}
+.cards{
+    width: 25%;
+
+}

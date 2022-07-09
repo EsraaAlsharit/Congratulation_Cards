@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- <script src="sp.js"></script> -->
+
+    <title>Make Your Card</title>
+</head>
+
+<body>
+    <div class="header d-flex justify-content-between">
+        <img src="sda_logo.png" alt="logo" class="logo-sda m-5">
+        <img src="coding-dojo_owler_20161201_092020_original.png" alt="logo" class="logo m-5">
+    </div>
+
+    <div class="d-flex justify-content-center m-5">
+        <div class="">
+            <div id="control">
+            </div>
+
+            <div class="card p-3" id="form">
+                <h1 class="text-center">Make Your Card for Eid</h1>
+                <div>
+                    <!-- <form action=""> -->
+                    <div class="form-group m-3">
+                        <label for="name">Write Your Name:<span class="text-danger">*</span></label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group m-3">
+                        <label for="exampleFormControlInput1">Choice Your Card:<span
+                                class="text-danger">*</span></label>
+                        <div class="form-check m-3">
+                            <input class="form-check-input" type="radio" name="Cards" id="exampleRadios1"
+                                value="Congratulation-1" required>
+                            <label class="form-check-label" for="exampleRadios1">
+                                <img src="Congratulation-1.jpg" alt="" id="Congratulation-1" class="cards">
+                            </label>
+                        </div>
+                        <div class="form-check m-3">
+                            <input class="form-check-input" type="radio" name="Cards" id="exampleRadios2"
+                                value="Congratulation-2">
+                            <label class="form-check-label" for="exampleRadios2">
+                                <img src="Congratulation-2.jpg" alt="" id="Congratulation-2" class="cards">
+                            </label>
+                        </div>
+                        <div class="form-check m-3">
+                            <input class="form-check-input" type="radio" name="Cards" id="exampleRadios3"
+                                value="Congratulation-3">
+                            <label class="form-check-label" for="exampleRadios3">
+                                <img src="Congratulation-3.jpg" alt="" id="Congratulation-3" class="cards">
+                            </label>
+                        </div>
+                        <div class="form-check m-3">
+                            <input class="form-check-input" type="radio" name="Cards" id="exampleRadios4"
+                                value="Congratulation-4">
+                            <label class="form-check-label" for="exampleRadios4">
+                                <img src="Congratulation-4.jpg" alt="" id="Congratulation-4" class="cards">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group m-3">
+                        <button type="submit" class="form-control btn-sda" id="make-card"
+                            onclick="myFunction()">Submit</button>
+                    </div>
+                    <!-- </form> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer d-flex justify-content-center align-items-center">
+        <p>made by: Esraa Alsharit</p>
+    </div>
+
+</body>
+
+
+</html>
